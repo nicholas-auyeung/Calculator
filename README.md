@@ -6,7 +6,7 @@ Calculator is a basic arithmatic calculator which performs the four following ma
 	- Addition
 	- Subtraction
 	- Multiplication
-	- Divsion
+	- Division
 
 ## Installation
 	
