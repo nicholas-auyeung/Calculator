@@ -20,8 +20,6 @@ Calculator is a basic arithmatic calculator which performs the four following ma
 ## Usage
 	Once run, the console will welcome and prompt the user for the desired mathematical operation they wish to perform.
 
-	![](screenshots/welcome.png)
-
 	The user will then be prompted to enter two numbers that they wish to perform the desired operation on.
 	//insert image here
 
@@ -31,3 +29,6 @@ Calculator is a basic arithmatic calculator which performs the four following ma
 	Calculator will then reprompt the user for another mathematical operation.
 	If user is done with the application, enter any letter to exit.
 	//insert image here
+
+
+![](screenshots/welcome.png)
