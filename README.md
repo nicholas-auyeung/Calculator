@@ -22,12 +22,13 @@ Calculator is a basic arithmatic calculator which performs the four following ma
 ![](screenshots/welcome.png)	
 
 	The user will then be prompted to enter two numbers that they wish to perform the desired operation on.
-	//insert image here
+![](screenshots/two_num.png)
 
 	The correct result will then be outputted.
 	//insert image here
+![](screenshots/result.png)
 
 	Calculator will then reprompt the user for another mathematical operation.
 	If user is done with the application, enter any letter to exit.
 	//insert image here
-
+![](screenshots/exit.png)
