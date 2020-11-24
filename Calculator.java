@@ -1,21 +1,34 @@
+/**
+* The Calculator program implements an application that
+* performs basic calculator operations with user input to the standard output.
+*
+* @author  Nicholas Auyeung
+* @version 1.0
+* @since   2020-22-11 
+*/
+
 package Calculator;
 import java.util.Scanner;
 public class Calculator {
 	
 	private static double result;
 	
+	//add operation
 	static void addition(double firstNum, double secondNum) {
 		result = firstNum + secondNum;
 		System.out.println("Result: " + result + "\n");
 	}
+	//subtract operation
 	static void subtraction(double firstNum, double secondNum) {
 		result = firstNum - secondNum;
 		System.out.println("Result: " + result + "\n");
 	}
+	//multiply operation
 	static void multiplication(double firstNum, double secondNum) {
 		result = firstNum * secondNum;
 		System.out.println("Result: " + result + "\n");
 	}
+	//divide operation
 	static void division(double firstNum, double secondNum) {
 		result = firstNum / secondNum;
 		System.out.println("Result: " + result + "\n");
@@ -34,6 +47,7 @@ public class Calculator {
 			System.out.println("(2) Subtraction");
 			System.out.println("(3) Multiplication");
 			System.out.println("(4) Division");
+			//takes in user operation input
 			operation = scan.next().charAt(0);
 			if(Character.isLetter(operation)) {
 				System.out.println("Exiting...");
@@ -44,6 +58,7 @@ public class Calculator {
 			firstNum = scan.nextDouble();
 			secondNum = scan.nextDouble();
 			
+			//functions on user decided math operation
 			switch(operation) {
 				case '1':
 					addition(firstNum, secondNum);
