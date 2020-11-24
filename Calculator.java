@@ -37,6 +37,7 @@ public class Calculator {
 			operation = scan.next().charAt(0);
 			if(Character.isLetter(operation)) {
 				System.out.println("Exiting...");
+				scan.close();
 				break;
 			}
 			System.out.println("Enter the two numbers: ");
@@ -58,6 +59,7 @@ public class Calculator {
 					break;
 				default:
 					System.out.println("Exiting...");
+					scan.close();
 					moreCalc = false;
 					break;
 			}
