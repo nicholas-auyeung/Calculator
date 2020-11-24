@@ -6,19 +6,19 @@ public class Calculator {
 	
 	static void addition(double firstNum, double secondNum) {
 		result = firstNum + secondNum;
-		System.out.println("Result: " + result);
+		System.out.println("Result: " + result + "\n");
 	}
 	static void subtraction(double firstNum, double secondNum) {
 		result = firstNum - secondNum;
-		System.out.println("Result: " + result);
+		System.out.println("Result: " + result + "\n");
 	}
 	static void multiplication(double firstNum, double secondNum) {
 		result = firstNum * secondNum;
-		System.out.println("Result: " + result);
+		System.out.println("Result: " + result + "\n");
 	}
 	static void division(double firstNum, double secondNum) {
 		result = firstNum / secondNum;
-		System.out.println("Result: " + result);
+		System.out.println("Result: " + result + "\n");
 	}
 	
 	public static void main(String[] args) {
@@ -26,9 +26,8 @@ public class Calculator {
 		char operation;
 		boolean moreCalc = true;
 		Scanner scan = new Scanner(System.in);
-		
+		System.out.println("Welcome to Calculator" + "\n");
 		while(moreCalc == true) {
-			System.out.println("Welcome to Calculator" + "\n");
 			System.out.println("Enter any letter to exit");
 			System.out.println("What operation would you like to perform?" + "\n");
 			System.out.println("(1) Addition");
@@ -36,6 +35,10 @@ public class Calculator {
 			System.out.println("(3) Multiplication");
 			System.out.println("(4) Division");
 			operation = scan.next().charAt(0);
+			if(Character.isLetter(operation)) {
+				System.out.println("Exiting...");
+				break;
+			}
 			System.out.println("Enter the two numbers: ");
 			firstNum = scan.nextDouble();
 			secondNum = scan.nextDouble();
