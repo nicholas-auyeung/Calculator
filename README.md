@@ -25,10 +25,8 @@ Calculator is a basic arithmatic calculator which performs the four following ma
 ![](screenshots/two_num.png)
 
 	The correct result will then be outputted.
-	//insert image here
 ![](screenshots/result.png)
 
 	Calculator will then reprompt the user for another mathematical operation.
 	If user is done with the application, enter any letter to exit.
-	//insert image here
 ![](screenshots/exit.png)
